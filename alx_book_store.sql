@@ -1,5 +1,8 @@
 /* Database Name: alx_book_store */
+CREATE DATABASE alx_book_store;
+USE alx_book_store;
 
+/* create tables */
 CREATE TABLE Books (
 book_id INT PRIMARY KEY NOT NULL,
 title VARCHAR(130) NOT NULL,
