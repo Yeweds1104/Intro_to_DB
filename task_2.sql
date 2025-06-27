@@ -33,7 +33,7 @@ FOREIGN KEY (customer_id) REFERENCES Customers(customer_id)
     ON UPDATE CASCADE
 );
 
-CREATE TABLE Order_details (
+CREATE TABLE Order_Details (
 orderdetailid INT PRIMARY KEY NOT NULL,
 order_id INT,
 book_id INT,
